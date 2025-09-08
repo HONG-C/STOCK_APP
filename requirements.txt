@@ -1,3 +1,4 @@
-streamlit
-FinanceDataReader
+git+https://github.com/FinanceData/FinanceDataReader.git
 pandas
+streamlit
+
