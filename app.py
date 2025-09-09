@@ -42,11 +42,11 @@ if ticker:
 
         result_df = pd.DataFrame(rows, columns=["기간", "가격"])
         st.dataframe(result_df, use_container_width=True)
-
-    st.markdown("💰 후원 계좌: **신한 36904188060 (감사합니다!)**")
+        st.markdown("💰 후원 계좌: **신한 36904188060 (감사합니다!)**")
 
     
     except Exception as e:
         st.error(f"❌ 데이터를 불러오는 중 문제가 발생했습니다: {e}")
+
 
 
